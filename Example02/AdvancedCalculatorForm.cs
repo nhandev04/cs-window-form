@@ -64,7 +64,7 @@ namespace Example02
                     txtDisplay.Text = "0";
                     isNew = true;
                     break;
-                case "?":
+                case "DEL":
                     if (txtDisplay.Text.Length > 1)
                         txtDisplay.Text = txtDisplay.Text.Substring(0, txtDisplay.Text.Length - 1);
                     else
@@ -74,7 +74,7 @@ namespace Example02
                     if (double.TryParse(txtDisplay.Text, out double neg))
                         txtDisplay.Text = (-neg).ToString(CultureInfo.InvariantCulture);
                     break;
-                case "?":
+                case "v-":
                     if (double.TryParse(txtDisplay.Text, out double sqrt))
                         txtDisplay.Text = sqrt >= 0 ? Math.Sqrt(sqrt).ToString(CultureInfo.InvariantCulture) : "0";
                     break;

@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Example02
+namespace Example06
 {
     internal static class Program
     {
@@ -13,14 +16,7 @@ namespace Example02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            var calcForm = new CalculatorForm();
-            var simpleForm = new SimpleCalculatorForm();
-            var advForm = new AdvancedCalculatorForm();
-
-            Application.Run(calcForm);
-            Application.Run(simpleForm);
-            Application.Run(advForm);
+            Application.Run(new Form1());
         }
     }
 }
