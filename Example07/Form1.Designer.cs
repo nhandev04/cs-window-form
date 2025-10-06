@@ -33,7 +33,7 @@ namespace Example07
             this.SuspendLayout();
             // lblMaNV
             this.lblMaNV.Location = new System.Drawing.Point(20, 20);
-            this.lblMaNV.Size = new System.Drawing.Size(90, 22);
+            this.lblMaNV.Size = new System.Drawing.Size(105, 22);
             this.lblMaNV.Text = "Mã nhân viên";
             // txtMaNV
             this.txtMaNV.Location = new System.Drawing.Point(120, 20);
@@ -42,7 +42,7 @@ namespace Example07
             this.txtMaNV.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             // lblTenNV
             this.lblTenNV.Location = new System.Drawing.Point(20, 55);
-            this.lblTenNV.Size = new System.Drawing.Size(90, 22);
+            this.lblTenNV.Size = new System.Drawing.Size(105, 22);
             this.lblTenNV.Text = "Tên nhân viên";
             // txtTenNV
             this.txtTenNV.Location = new System.Drawing.Point(120, 55);
